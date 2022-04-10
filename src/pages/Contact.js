@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
-import EmailLink from '../components/Contact/EmailLink';
-import ContactIcons from '../components/Contact/ContactIcons';
+// import EmailLink from '../components/Contact/EmailLink';
+// import ContactIcons from '../components/Contact/ContactIcons';
 
 const Contact = () => (
   <Main
@@ -16,11 +16,14 @@ const Contact = () => (
           <h2 data-testid="heading"><Link to="/contact">Contact</Link></h2>
         </div>
       </header>
-      <div className="email-at">
-        <p>Feel free to get in touch. You can email me at: </p>
-        <EmailLink />
+      <div>
+        <h3>
+          Alex : LittleConked@ChooseHell.com
+        </h3>
+        <h3>
+          Ryan : BigShurpa@ChooseHell.com
+        </h3>
       </div>
-      <ContactIcons />
     </article>
   </Main>
 );
