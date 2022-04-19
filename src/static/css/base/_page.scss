@@ -22,6 +22,9 @@
 				min-width: 320px;
 			}
 		}
+		html {
+			scroll-behavior: smooth;
+		}
 
 	body {
 		background: _palette(bg-alt);

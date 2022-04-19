@@ -7,7 +7,7 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/Fire.jpg`} alt="" />
+        <img src={`${PUBLIC_URL}/images/HellButton.png`} alt="" />
       </Link>
       <header>
         <h2>Choose Hell</h2>

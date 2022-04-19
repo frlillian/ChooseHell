@@ -21,6 +21,14 @@ const routes = [
     path: '/WarCatan',
   },
   {
+    label: 'Vagabond',
+    path: '/Vagabond',
+  },
+  {
+    label: '5e Homebrew',
+    path: '/Homebrew',
+  },
+  {
     label: 'Contact',
     path: '/contact',
   },

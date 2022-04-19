@@ -30,8 +30,8 @@ const Page = ({ markSource, title, sub }) => (
         }}
         escapeHtml={false}
       />
-      <button style={{ margin: '20px 20px 0px 0px' }} type="button">Buy</button>
-      <button type="button">Apply for a Copy</button>
+      <a style={{ margin: '20px 20px 0px 0px' }} href="https://ko-fi.com/choosehell" className="button">Donate</a>
+      <a href="/images/HellButton.jpg" className="button" download={`${title}.md`}>Download</a>
     </article>
   </Main>
 );
